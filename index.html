@@ -11,13 +11,15 @@
         <div class="to-do-app">
             <h2>My To-Do-List</h2>
             <div class="row">
-                <input type="text" class="task-input" placeholder="Add a new task">
-                <button class="add-task">Add Task</button>
+                <input type="text" class="task-input" id="task-input" placeholder="Add a new task">
+                <button onclick="addTask()" class="add-task">Add Task</button>
             </div>
             <ul id="task-list">
                 <!-- <li class="checked"></li> -->
             </ul>
         </div>
     </div>
+
+    <script src="script.js"></script>  <!-- Link to the JavaScript file -->
 </body>
 </html>
