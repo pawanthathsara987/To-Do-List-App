@@ -11,7 +11,6 @@ function addTask(){
         let span = document.createElement('span');
         span.innerText = '\u00d7';
         li.appendChild(span);
-
     }
     taskInput.value = '';
     saveData();

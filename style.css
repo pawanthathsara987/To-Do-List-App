@@ -8,6 +8,8 @@
 .container {
     width: 100%;
     min-height: 100vh;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    padding: 10px;
 }
 
 .to-do-app{
@@ -17,6 +19,7 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
 
 .to-do-app h1{
@@ -95,8 +98,8 @@ ul li span{
     right: 0;
     cursor: pointer;
     top:5px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     font-size: 22px;
     color: #555;
     line-height: 40px;
